@@ -91,9 +91,9 @@ public class BungeeCordCheck extends JavaPlugin implements PluginMessageListener
 
         Player player = (Player) sender;
 
-        if (cmd.getName().equalsIgnoreCase("checkserver")) {
+        if (cmd.getName().equalsIgnoreCase("확인")) {
             if (args.length != 1) {
-                player.sendMessage("§c사용법: /checkserver <플레이어명>");
+                player.sendMessage("§c사용법: /확인 <플레이어명>");
                 return true;
             }
 

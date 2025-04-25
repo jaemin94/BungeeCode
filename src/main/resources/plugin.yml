@@ -3,9 +3,9 @@ main: com.example.BungeeCordCheck
 version: 1.0
 api-version: 1.20
 commands:
-  checkserver:
+  확인:
     description: 특정 플레이어 접속 서버 조회
-    usage: /checkserver <플레이어명>
+    usage: /확인 <플레이어명>
   whereami:
     description: 자신의 접속 서버 확인
     usage: /whereami
